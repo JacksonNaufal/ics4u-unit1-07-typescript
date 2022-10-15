@@ -1,6 +1,6 @@
 /**
  * The program is the classic
- * guassian table to csv
+ * gaussian table to csv
  * random mark
  * generator
  *
@@ -19,7 +19,7 @@ import { writeFileSync } from 'fs'
  * @param {number} dev standard deviation in the marking system
  * @returns {number} the mean of the numbers
  */
-function guassianEquation(gaussian: number, dev: number): number {
+function gaussianEquation(gaussian: number, dev: number): number {
   // these are my constants and variables
   const temp1 = 1 - Math.random()
   const temp2 = Math.random()
@@ -52,7 +52,7 @@ function csvTable(students: String[], assignments: String[]): void {
     // creates the marks for each students that
     // are in the student.txt file
     for (let unit = 0; unit < worklength; unit++) {
-      arrayStud.push(Math.round(guassianEquation(75, 10)))
+      arrayStud.push(Math.round(gaussianEquation(75, 10)))
     }
 
     // pushes all the table values  into the array
