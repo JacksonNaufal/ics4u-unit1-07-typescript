@@ -1,6 +1,8 @@
 /**
  * The program is the classic
- * mean, median calculator
+ * guassian table to csv
+ * random mark
+ * generator
  *
  * By:      Jackson Naufal
  * Version: 1.0
