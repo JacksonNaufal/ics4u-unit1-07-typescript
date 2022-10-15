@@ -59,8 +59,7 @@ function csvTable(students: String[], assignments: String[]): void {
 
   // data text
   // https://stackoverflow.com/questions/14964035/how-to-export-javascript-array-info-to-csv-on-client-side
-  let csvContent = 'data:text/csv;charset=utf-8,'
-  let csvContent = 'utf-8'
+  // let csvContent = 'data:text/csv;charset=utf-8,'
 
   // this creates the CSV table
   const tableDone = table.join(',\n')
