@@ -67,13 +67,13 @@ function csvTable(students: String[], assignments: String[]): void {
 }
 
 // this is the file path used to get the sets
-const studentFile = readFileSync('students3.txt', 'utf-8')
+const studentFile = readFileSync('studentsTC1.txt', 'utf-8')
 const studList = studentFile.split(/\r?\n/)
 studList.pop()
 
 // this reads in the file, and splits it to make
 // the table look nice, with a nice utf-8 font
-const workFile = readFileSync('work.txt', 'utf-8')
+const workFile = readFileSync('workTC1.txt', 'utf-8')
 const workF = workFile.split(/\r?\n/)
 workF.pop()
 
