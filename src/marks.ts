@@ -36,7 +36,7 @@ function gaussianEquation(gaussian: number, dev: number): number {
  */
 function csvTable(students: String[], assignments: String[]): void {
   // these are my constants and variables
-  const worklength = assignments.length -  1
+  const worklength = assignments.length - 1
 
   // this creates the table, and pushes all of the
   // information into the array
